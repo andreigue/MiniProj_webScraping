@@ -12,7 +12,7 @@ git: https://www.youtube.com/watch?v=61WbzS9XMwk
 """
 
 import requests
-from bs4 import beautifulsoup4  //bs gives nice structures to work with when scraping (understands html/css)
+from bs4 import beautifulsoup4  #bs gives nice structures to work with when scraping (understands html/css)
 
 page = requests.get(' ')
 soup = BeautifulSoup(page.content, 'html.parser') #soup object now contains all the html code of the page (same text as if you right click on a page and "view page source")
